@@ -1,0 +1,17 @@
+All Icons Code Will Be In Descriptions Guys :)
+
+Angle Down - <i class="fas fa-angle-down"></i>
+Dots Down - <i class="fas fa-ellipsis-h"></i>
+
+Shuffle - <i class="fas fa-random all-icons"></i>
+
+Backwards - <i class="fas fa-backward"></i>
+PlayBtn - <i class="fas fa-play-circle"></i>
+Forwards - <i class="fas fa-forward"></i>
+
+Music App - <i class="fas fa-music all-icons"></i>
+
+****************************************************
+                    CSS 
+
+Background - linear-gradient(to right top, #0081f9,#f747ff)

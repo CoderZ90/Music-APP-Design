@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right top, #0081f9,#f747ff);
+    display: grid;
+    place-items: center;
+}
+
+.wrapper {
+    position: relative;
+    height: 570px;
+    width: 330px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.status {
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    /* background: #ccc; */
+    justify-content: space-between;
+}
+
+.status .play-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.imgBox {
+    position: relative;
+    background: #ccc;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.music {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.music .title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #222;
+}
+
+.music .m-text {
+    color: #777;
+    font-weight: 500;
+    margin-top: 5px;
+} 
+
+.progress {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress input {
+    position: relative;
+    width: 100%;
+    -webkit-appearance: none;
+    background: #ccc;
+    height: 6px;
+    border-radius: 10px;
+}
+
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(to right top, #0081f9,#f747ff);
+    border-radius: 50%;
+}
+
+.min-left {
+    position: absolute;
+    margin-top: 5px;
+    left: 0;
+    bottom: -10px;
+    color: #777;
+}
+
+.min-right {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    color: #777;
+}
+
+.controls {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.control-icons {
+    margin: 0 12px;
+}
+
+.all-icons {
+    background: linear-gradient(to right top, #0081f9,#f747ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
